@@ -1,0 +1,23 @@
+Toplama	+	__add__(self, other)	İki nesneyi toplar.
+Çıkarma	-	__sub__(self, other)	İki nesneyi çıkarır.
+Çarpma	*	__mul__(self, other)	İki nesneyi çarpar.
+Bölme	/	__div__(self, other)	İki nesneyi böler.
+Mod Alma	%	__mod__(self, other)	İki nesneyi mod alır.
+Üs Alma	**	__pow__(self, other)	Bir nesneyi diğerinin kuvvetine yükseltir.
+
+Eşitlik	==	__eq__(self, other)	İki nesnenin eşit olup olmadığını karşılaştırır.
+Eşit Değilik	!=	__ne__(self, other)	İki nesnenin eşit olmadığını karşılaştırır.
+Küçüklük	<	__lt__(self, other)	Bir nesnenin diğerinden küçük olup olmadığını karşılaştırır.
+Küçük veya Eşit	<=	__le__(self, other)	Bir nesnenin diğerinden küçük veya eşit olup olmadığını karşılaştırır.
+Büyüklük	>	__gt__(self, other)	Bir nesnenin diğerinden büyük olup olmadığını karşılaştırır.
+Büyük veya Eşit	>=	__ge__(self, other)	Bir nesnenin diğerinden büyük veya eşit olup olmadığını karşılaştırır.
+
+Çağırma	()	__call__(self, *args, **kwargs)	Bir nesneyi bir fonksiyon gibi çağırır.
+Temsil	repr()	__repr__(self)	Bir nesnenin çıktısını nasıl temsil edeceğini tanımlar.
+İnsan Tarafından Okunabilir Temsil	str()	__str__(self)	Bir nesnenin insan tarafından okunabilir bir çıktısını tanımlar.
+Nesnenin İçeriğini Erişilebilir Yapma	.	__getattribute__(self, name)	Bir nesnenin bir özelliğini alır.
+Nesnenin İçeriğini Değiştirme	=	__setattr__(self, name, value)	Bir nesnenin bir özelliğini ayarlar.
+Nesnenin İçeriğini Silme	del	__delattr__(self, name)	Bir nesnenin bir özelliğini siler.
+Nesnenin Özelliklerini Döndürme	dir()	__dir__(self)	Bir nesnenin özelliklerini döndürür.
+
+
